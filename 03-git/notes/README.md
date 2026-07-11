@@ -29,7 +29,9 @@ What is Git ?
 Git is not a File Tracker !
 
 - In fact what Git tracks is snapshots, eveytime you do a commit  or a change, Git takes a snapshot  not of the line you just changed but the whole file. For example, if you was to change one line it would save that verison of the file efficently. 
+- Git uses a key value store called SHA-1 hash which are long files of string that uniquely represent the contents of your file. So no two different blobs or file contents would have the same hash.
 
+- In simple words, its not just a tracker its a smart,compress hash-based snapshot engine.
 
 
 
