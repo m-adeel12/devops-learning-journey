@@ -28,7 +28,7 @@ What is Git ?
 
 Git is not a File Tracker !
 
-- In fact what Git tracks is snapshots, eveytime you do a commit  or a change | Git takes a snapshop not of the line you just changed but the whole file. For example, if you was to change one line it would save that verison of the file efficently. 
+- In fact what Git tracks is snapshots, eveytime you do a commit  or a change -  Git takes a snapshot  not of the line you just changed but the whole file. For example, if you was to change one line it would save that verison of the file efficently. 
 
 
 
