@@ -36,7 +36,11 @@ Git is not a File Tracker !
 <img width="480" height="241" alt="image" src="https://github.com/user-attachments/assets/e94d3839-9bde-4777-8ac3-2cbb15766b41" />
 
 
+## Git Terminology and Key Concepts 
 
+- Repository: A git project with all your files stored
+- Commit: A snapshot of your files and metadata (author,timestamp,message etc)
+- 
 
 
 
