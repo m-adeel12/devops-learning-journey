@@ -20,6 +20,7 @@ What is Git ?
 . Then came 2005 where Linus Toravlds lost access to an important tool called bitkeeper, Linus being Linus came up with an idea why not write my own verison control, a few years later Git was born. 
 . Git changed everything, instead of relying on one server, every developer like myself  has a fully copy of the repo. 
 
+
 <img width="488" height="254" alt="image" src="https://github.com/user-attachments/assets/9a006295-b0e7-4c97-9332-19cd34c4c8d8" />
 
 
