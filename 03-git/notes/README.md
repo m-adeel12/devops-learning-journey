@@ -33,6 +33,9 @@ Git is not a File Tracker !
 
 - In simple words, its not just a tracker its a smart,compress hash-based snapshot engine.
 
+<img width="480" height="241" alt="image" src="https://github.com/user-attachments/assets/e94d3839-9bde-4777-8ac3-2cbb15766b41" />
+
+
 
 
 
