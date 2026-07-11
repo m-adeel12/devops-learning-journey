@@ -1,4 +1,4 @@
-# Notes
+# Version Control
 
 Add your notes here as you progress through this module.
 
@@ -30,4 +30,5 @@ When creating a new note, you can use this structure:
 ## Your Notes
 
 - [ ] Add your first note
+
 
