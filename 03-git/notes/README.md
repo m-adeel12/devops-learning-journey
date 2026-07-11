@@ -74,7 +74,10 @@ Git is not a File Tracker !
 
 ## Areas of Git
 
-i. w
+1. Working directory: where your actively editing your files whether its a python script or a terraform module
+2. Staging Area: This is where you put files that your planning to commit
+3. Repository: Where all your files are stored
 
+- Important Note ! Just running git add wont save your file , you need to commit it by using the git commit command. 
 
 
