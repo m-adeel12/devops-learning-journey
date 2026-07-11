@@ -40,7 +40,23 @@ Git is not a File Tracker !
 
 - Repository: A git project with all your files stored
 - Commit: A snapshot of your files and metadata (author,timestamp,message etc)
-- 
+- Branch: A movable pointer to a specific commit
+- Remote: A reference to an external Git host (like GitHub, GitLab) usually named origion
+- Staging Area: A buffer between your working directory and the repo what you plan to commit
+- Blobs: Stores the actual contents of your file (just the data, no filename/path)
+- Trees: Stores filenames, filepaths, and pointers to blobs (files) and other trees (directories)
+- Refs (Reference): Pointer to a commit: branches(refs/heads), tags (refs/tags), and special ones like HEAD
+- Index: the actual file .git/index, a binary file that holds the staging area info
+- HEAD: pointer to the current branch or commit your working on
+- Object Store: .git/objects/- where Git stores all blobs,trees,and commits by SHA hash
+- Tag: a ref to a specific commit, often used for marking releases
+
+## The .git directory 
+
+- The .git directory is the brain of your project, it stores everything that Git needs for it to function (history, configurations, branches etc)
+
+  <img width="479" height="250" alt="image" src="https://github.com/user-attachments/assets/35840181-49e4-4761-a6d5-4d7f6004ae45" />
+
 
 
 
