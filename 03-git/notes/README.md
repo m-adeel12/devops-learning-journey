@@ -20,10 +20,6 @@ What is Git ?
 - Then came 2005 where Linus Toravlds lost access to an important tool called bitkeeper, Linus being Linus came up with an idea why not write my own verison control, a few years later Git was born. 
 - Git changed everything, instead of relying on one server, every developer like myself  has a fully copy of the repo. 
 
-## Viewing History Commands
-
-- git log: allows you to see commit history
-- git log --online --graph: shows a visual branch layout, very useful when dealing with merge changes
 <img width="488" height="254" alt="image" src="https://github.com/user-attachments/assets/9a006295-b0e7-4c97-9332-19cd34c4c8d8" />
 
 
@@ -84,3 +80,12 @@ Git is not a File Tracker !
 - Important Note ! Just running git add wont save your file , you need to commit it by using the git commit command. 
 
 
+## Viewing History Commands
+
+- git log: allows you to see commit history
+- git log --online --graph: shows a visual branch layout, very useful when dealing with merge changes
+- git show <commit>: Used to view a specific commit
+- git diff: compares unstaged vs last commit, very useful to see what you broke before
+- git diff --staged: compares staged vs last commit
+- git blame <file>: shows who last change each line
+- git reflog: view local HEAD history(even deleted branch)
