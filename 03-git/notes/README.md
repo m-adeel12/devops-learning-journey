@@ -72,5 +72,9 @@ Git is not a File Tracker !
 - git mv: rename files
 - git restore: undo file changes (modern)
 
+## Areas of Git
+
+i. w
+
 
 
