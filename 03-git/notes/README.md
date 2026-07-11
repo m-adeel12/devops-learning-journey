@@ -24,6 +24,12 @@ What is Git ?
 <img width="488" height="254" alt="image" src="https://github.com/user-attachments/assets/9a006295-b0e7-4c97-9332-19cd34c4c8d8" />
 
 
+## Git Architecture and Internals 
+
+Git is not a File Tracker !
+
+- In fact what Git tracks is snapshots, eveytime you do a commit  or a change | Git takes a snapshop not of the line you just changed but the whole file. For example, if you was to change one line it would save that verison of the file efficently. 
+
 
 
 
