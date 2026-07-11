@@ -1,9 +1,9 @@
 # Git
 
 What is Git ?
-- Git isnt something that jsut stores code, in fact it is the foundation of how modern teams collaborate, build, test, ship and even recover when an engineer breaks at production at lets say 2 am. 
+- Git isnt something that just stores code, in fact it is the foundation of how modern teams collaborate, build, test, ship and even recover when an engineer breaks a production at lets say 2 am. 
 
-## Template
+## Version Control
 
 
 When creating a new note, you can use this structure:
