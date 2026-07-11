@@ -57,6 +57,20 @@ Git is not a File Tracker !
 
   <img width="479" height="250" alt="image" src="https://github.com/user-attachments/assets/35840181-49e4-4761-a6d5-4d7f6004ae45" />
 
+## Git Common Commands 
+
+- git innit: initalises a new Git repo with .git directory
+- git add: stage changes
+- git commit: snapshot changes
+- git staged: shows staged/unstaged work
+- git log: shows commit history
+- git diff: shows what changed
+- git config: set user/email
+- git help <command>: built-in docs
+- git clone: copy a remote repo
+- git rm: remove files
+- git mv: rename files
+- git restore: undo file changes (modern)
 
 
 
