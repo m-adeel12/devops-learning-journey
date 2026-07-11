@@ -1,6 +1,7 @@
-# Version Control
+# Git
 
-Add your notes here as you progress through this module.
+What is Git ?
+- Git isnt something that jsut stores code, in fact it is the foundation of how modern teams collaborate, build, test, ship and even recover when an engineer breaks at production at lets say 2 am. 
 
 ## Template
 
