@@ -92,4 +92,15 @@ Git is not a File Tracker !
 
 ## Git vs GitHub
 
-- 
+- Many people get confused and think Git is Github, however this is a misconception and in fact Git is a CI/CD version control tool that you use to make changes on GitHub
+- GitHub on the other hand is a cloud based platform service, it hosts your repo online so you can collaborate witb others, track issues, review codes etc.
+- Git runs locally whereas Github runs on the cloud
+- Git works offline whereas Github doesnt
+- Git is open source whereas GitHub is owned by Microsoft.
+
+## Branching, Merging and Conflict Resolution
+
+- Branching 101: Branching essentially allows you to work on multiple things at once without messing up your main project.
+
+
+<img width="396" height="234" alt="image" src="https://github.com/user-attachments/assets/ac48a00f-6adf-4de8-84b8-9a7326d26f97" />
