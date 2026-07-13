@@ -135,3 +135,12 @@ Git is not a File Tracker !
 
  <img width="464" height="191" alt="image" src="https://github.com/user-attachments/assets/db01380d-7839-4067-9a73-00177c6eabdb" />
  
+## Fork and Pull Requests
+
+- Fork  essentially is  your own copy of someone elses repo on GitHub, you can then clone the forked repo to your local machine and make changes to GitHub. In order to propose the changes you need  make a pull request, in simple terms its where the owner can review your code and merge changes.
+- This is mainly used in open source projects and cross-team workflows.
+
+## Collaborating Practices
+
+- 
+  
