@@ -98,9 +98,20 @@ Git is not a File Tracker !
 - Git works offline whereas Github doesnt
 - Git is open source whereas GitHub is owned by Microsoft.
 
-## Branching, Merging and Conflict Resolution
+## Branching
 
 - Branching 101: Branching essentially allows you to work on multiple things at once without messing up your main project.
 
 
 <img width="396" height="234" alt="image" src="https://github.com/user-attachments/assets/ac48a00f-6adf-4de8-84b8-9a7326d26f97" />
+
+## Merging
+
+- Merging in Git is when you combine changes from one branch into another
+- git merge: merge target into current branch
+
+## Visualise Branches and logo 
+<img width="301" height="108" alt="image" src="https://github.com/user-attachments/assets/34ac765b-6c66-4025-adfb-b3bd46c365a2" />
+
+
+  
