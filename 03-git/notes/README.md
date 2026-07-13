@@ -113,5 +113,25 @@ Git is not a File Tracker !
 ## Visualise Branches and logo 
 <img width="301" height="108" alt="image" src="https://github.com/user-attachments/assets/34ac765b-6c66-4025-adfb-b3bd46c365a2" />
 
+## Rebase vs Merge
 
-  
+- Merge is safe and friendly, it brings two branches together and preserves the full history, it also add a merge commit so you can where the branches have joined.
+- Rebase is a bit more advanced it rewrites your git history to make it seem like it was written by the latest commit.
+
+## Git Stash & Pop
+
+- Git Stash is essentially a temporary storage box for your changes
+- git stash: it hides away all your uncommited changes
+- git stash list: view all stashes
+- git stash apply: reapplies the latest stash
+- git stash pop: reapplies the latest stash and deletes it right after
+- These commands are very useful when switching branches mid task
+
+## Reset,Revert and Cherry-pick
+
+- git revert: it creates a brand new commit and undoes the effect of the previous one, it doesnt mess with the history and is widely used in production.
+- git reset: moves the pointer backwards and there is three types - 1. soft = keeps all changes, 2. Mixed= unstages your changes, 3. Hard= Nukes everything
+- git cherry-pick: allows you to apply a single commit from another branch to your current one. Useful for hotfixes or target changes.
+
+ <img width="464" height="191" alt="image" src="https://github.com/user-attachments/assets/db01380d-7839-4067-9a73-00177c6eabdb" />
+ 
