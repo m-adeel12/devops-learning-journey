@@ -150,4 +150,23 @@ Git is not a File Tracker !
 
   <img width="472" height="233" alt="image" src="https://github.com/user-attachments/assets/015e1a18-4e19-4967-9d72-02d09811b0af" />
 
+## Typical Git Workflow
+
+- Firstly the developer pulls the latest main or clones the repo, its important to work on the latest code to prevent working on something that is outdated.
+- Then you would create a feature branch
+- As you go along you work locally make some changes, once your happy and ready to share you push your branch to GitHub.
+- Lastly you open a PR/MR, by tagging one of your colleagues asking if they are happy to review to code so it can be pushed to GitHub.
+
+## Trunk Based Development 
+
+- In simple words, this term refers to everyone working on the same branch or a short lived branch that gets merged back in quickly.
+- To ensure this runs efficently, most teams have strong CI pipelines meaning every commit gets tested automatically.
+- Only good working code makes it in to main,hence why this type of framework/plan is used in fast moving organisations (e.g. Google,Facebook) where they are able to move at a fast pace without breaking stuff.
+  
+  
+
+## Commit Hygiene and Best Practice 
+
+<img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/e895c7e6-91cb-4573-9efb-483d4aeb8151" />
+
   
