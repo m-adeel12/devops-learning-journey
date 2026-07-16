@@ -169,4 +169,12 @@ Git is not a File Tracker !
 
 <img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/e895c7e6-91cb-4573-9efb-483d4aeb8151" />
 
+## Pre-Commit & Automation
+
+- This is very important, your about to commit and what if your code is broken and messy and your accidently trying to push out secrets. This is where Pre-Commit and Automation comes in.
   
+1. Its good to run linters/tests before commiting, you can use tools like pre-commit,husky,tflint/sec. What these tools do is run checks before it hits the repository.
+2. These checks prevent broken code or even potential bugs from entering the repo.
+3. They also hook into CI pipelines for formatting,testing and scanning. This ensures your code runs clean across the board.
+- The automation saves time, catches issues early and makes you look sharp in your pull request. 
+     
