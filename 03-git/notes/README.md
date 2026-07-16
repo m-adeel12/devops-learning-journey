@@ -178,3 +178,11 @@ Git is not a File Tracker !
 3. They also hook into CI pipelines for formatting,testing and scanning. This ensures your code runs clean across the board.
 - The automation saves time, catches issues early and makes you look sharp in your pull request. 
      
+## Git Security & Secrets Hygiene
+
+- Number one Rule: Do not Commit Secrets!!!
+- In order to avoid such errors, we would have to use tools like git-secrets,trufflehog and even git-ignore. These act like security guards, they scan your code before you even commit.
+- On the flip side, if you have already leaked a secret, this needs to be fixed as soon as possible by using cleanup tools like git filter repo, BFG repo cleaner and even taking the step of renewing your secret as soon as you find out.
+- Aduiting in Git is key  in order to track changes or even there can be cases where a bot running in the background generates an alert when someone suppose changes your repo at 3am in the morning.
+
+  <img width="452" height="242" alt="image" src="https://github.com/user-attachments/assets/cfba4c4c-60a8-40ce-88c0-1dedfeb625a8" />
