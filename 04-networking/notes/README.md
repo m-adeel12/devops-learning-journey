@@ -6,4 +6,9 @@
 
 
 
-<img width="429" height="235" alt="image" src="https://github.com/user-attachments/assets/2323a402-af23-47d9-9c00-2b5099ca097d" />
+## Networking in DevOps
+
+- Networking plays a critical role in DevOps, one of the main things they do is interact between different servers, then comes deployment where it allows you to manage deployments for your applications effectively. The next thing they do is help you manage your infrastructure, networking enables monitoring and managing devices and applications effectively that can help engineers like myself to spot issues quickly.
+
+
+  <img width="463" height="248" alt="image" src="https://github.com/user-attachments/assets/ec17ede8-b138-42fa-9ed7-5f3103bb4166" />
