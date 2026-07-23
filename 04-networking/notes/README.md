@@ -22,5 +22,5 @@
 
 - Switches: Think of it like a manager for your local area network, it connects mutliple devices within the same network. The switch ensures data flows smoothly between these devices preventing any congestion and ensuring efficient communication.
 - Routers: The main purpose of a router is to direct traffic between different networks ensuring data gets in to the right place whether your browsing a wesbite or streaming a movie.
-- Firewall: Acts like a security guard for your network monitoring incoming and outgoing traffic based on pre-defined security rules. Its main purpose is to protect your network from unathorised access. 
+- Firewall: Acts like a security guard for your network monitoring incoming and outgoing traffic based on pre-defined security rules. Its main purpose is to protect your network from unauthorised access. 
   
