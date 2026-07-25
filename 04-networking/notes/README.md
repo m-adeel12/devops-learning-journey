@@ -22,5 +22,17 @@
 
 - Switches: Think of it like a manager for your local area network, it connects mutliple devices within the same network. The switch ensures data flows smoothly between these devices preventing any congestion and ensuring efficient communication.
 - Routers: The main purpose of a router is to direct traffic between different networks ensuring data gets in to the right place whether your browsing a wesbite or streaming a movie.
-- Firewall: Acts like a security guard for your network monitoring incoming and outgoing traffic based on pre-defined security rules. Its main purpose is to protect your network from unauthorised access. 
+- Firewall: Acts like a security guard for your network monitoring incoming and outgoing traffic based on pre-defined security rules. Its main purpose is to protect your network from unauthorised access.
+
+
+## IP Addressing 
+
+- Its a unique identifier assigned to each device on a network, it allows devices to locate and communicate with each other.
+- There is two types of IP addresses, IPV4 and IPV6.
+- IPV4 addresses are 32 bit numbers written in a decimal format, they are seperated by four groups of numbers, with each group ranging between 0-255 providing 4.3 million unique IP addresses.
+- IPV6 addresses are 128 bit numbers, they provide a vastly large pool of unqiue addresses, they are written in hexadecimal format and they are seperated by colons.
+- Without IP addresses, devices wouldnt know where to send or recieve data.
+
+  <img width="502" height="240" alt="image" src="https://github.com/user-attachments/assets/9d35904c-eb4b-4b2d-b966-213e12b2d117" />
+
   
