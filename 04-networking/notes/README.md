@@ -48,4 +48,26 @@
 - Ports can be described as logical doors on your device, each door is numbered and each number is used for a specific type of network communication.
 - When your computer wants to send data, it uses ports to ensure data gets sent to the right place.
 - Protocols are a set of rules that  define how data is formatted and transmitted across a network.
-- Without Ports and Protocols network communicaton would be a mess, ports ensure data gets sent to the right application on your device while Protocols ensure data is understandable  and formatted for smooth communication. 
+- Without Ports and Protocols network communicaton would be a mess, ports ensure data gets sent to the right application on your device while Protocols ensure data is understandable  and formatted for smooth communication.
+
+## TCP & UDP
+
+- TCP is like the postman of the internet, it ensures data sent from one device reaches the other device accurately and in the correct order.
+- Characteristics of TCP :
+  1. Connection-orientated - This means before any data is sent, a connection is established between two devices
+  2. 3 Way Handshake - It ensures that both devices are ready to send and recieve data
+  3. Reliable data transfer - It ensures that all data sent is recieved correctly on the other end, meaning if any data is lost or corrupted, TCP will resend it hence making it reliable.
+
+- TCP is used when two devices need to exchange data  back and forth, a common example could be web browsing, file transfer and emails.
+- To sum up its essential for any application where reliable delivery of data is crucial.
+
+- UDP is a simple protocol used for sending and recieving data.
+- Unlike TCP no prior communication is needed when sending out data
+- Its conncetionless, data can be sent without establishing a connection, however the downside is there is no guarantee that data will reach its destination.
+- It is much faster then TCP since there is no connection needed to setup however its unreliable due to the fact being there is no guarantee that data will get delivered to its intended destination.
+- UDP is suitable for real-time applications, for example (video gaming, online streaming) where speed is more important then reliability.
+- Some VPN's use UDP because its faster and more suitable for real-time applications
+
+<img width="487" height="244" alt="image" src="https://github.com/user-attachments/assets/0969cb92-af8c-4ba9-be09-1b117b6c0dbb" />
+
+
