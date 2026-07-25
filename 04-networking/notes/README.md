@@ -91,3 +91,5 @@
  
     <img width="435" height="248" alt="image" src="https://github.com/user-attachments/assets/fcc65bea-d8d7-4870-a56b-d12d7fc62ba3" />
  
+## Domain Name System (DNS)
+- In simple terms DNS allows us humans to keep track of websites and hosts by name instead of an IP address, think of it like a contact for the internet, if you dont know someones name you can easily search it up rather then having to memorise their number, same conecpt applies to DNS, it simplifies navigation on the Internet and is essential for accessing wesbites and services. 
