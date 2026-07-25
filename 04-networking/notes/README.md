@@ -39,6 +39,7 @@
 
 - Its a unique identifier assigned to network interfaces, its a 48 bit address displayed in a hexadecimal format
 - MAC addresses operate at the data link layer of the OSI model, they help to facilitate device identification within a local network.
+- They play a critical role in ensuring data packets get sent to the right place.
 
   <img width="434" height="220" alt="image" src="https://github.com/user-attachments/assets/9f826b4f-a1d6-4122-be76-77eef2cb5dbe" />
 
