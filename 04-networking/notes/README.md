@@ -35,4 +35,10 @@
 
   <img width="502" height="240" alt="image" src="https://github.com/user-attachments/assets/9d35904c-eb4b-4b2d-b966-213e12b2d117" />
 
-  
+## MAC Addresses 
+
+- Its a unique identifier assigned to network interfaces, its a 48 bit address displayed in a hexadecimal format
+- MAC addresses operate at the data link layer of the OSI model, they help to facilitate device identification within a local network.
+
+  <img width="434" height="220" alt="image" src="https://github.com/user-attachments/assets/9f826b4f-a1d6-4122-be76-77eef2cb5dbe" />
+
