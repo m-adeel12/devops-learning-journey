@@ -13,7 +13,7 @@
 
   <img width="463" height="248" alt="image" src="https://github.com/user-attachments/assets/ec17ede8-b138-42fa-9ed7-5f3103bb4166" />
 
-## LAN & WAN
+## LAN & WAN 
 
 - LAN stands for local area network, think of it like your homes wifi network, it connects devices within a small area like your home or office allowing them to share resources.
 - WAN is known as a wide area network , it covers a larger geographical area then a LAN. The best example of a WAN is the Internet which connects devices across the globe. WAN's are used to connect multiple LAN's enabling communication and data transfer over long distances.
