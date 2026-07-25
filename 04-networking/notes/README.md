@@ -80,3 +80,14 @@
   5. Session Layer- This layer is responsible for three things, establishing, managing and terminating sessions. Establising a session means getting a session started, for example logging in to a website and maintaning a session means keeping the session alive. Some of the example components are management protocols like RPC, NetBIOS and more.
   6. Presentation Layer- This layer is sometimes known as a syntax layer as it ensures data being sent is in a useable or readable format. This layer can handle encryption ensuring data security as well as data formatting
   7. Application Layer- This layer provides network services directly to applications. It handles things like web browsing, file transfers and emails, some of the example protocols are HTTP used for accessing websites.FTP used for transferring files.
+ 
+## TCP/IP Model
+
+- This model consists of 4 layers:
+  1. Application Layer
+  2. Transport Layer
+  3. Internet Layer
+  4. Network Access Layer
+ 
+    <img width="435" height="248" alt="image" src="https://github.com/user-attachments/assets/fcc65bea-d8d7-4870-a56b-d12d7fc62ba3" />
+ 
