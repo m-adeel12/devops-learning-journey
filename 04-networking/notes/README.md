@@ -70,4 +70,13 @@
 
 <img width="487" height="244" alt="image" src="https://github.com/user-attachments/assets/0969cb92-af8c-4ba9-be09-1b117b6c0dbb" />
 
-
+## OSI Model:
+- OSI model stands for Open Systems Interconnection model, it's a standard framework that simplifies how devices and applications communicate over a network.
+- It consists of 7 Layers, starting from the bottom
+  1. Physical Layer- It transmits raw bits of stream over the physical medium. Physical medium can be copper, fibre, cables or even switches
+  2. Data link layer- This layer is reponsible for node to node data transfer, think of it like a traffic cop that ensures data packets are sent and are recieved correctly between different network nodes. At layer 1 data was unorganised, however this layer puts your data packets into frames where its actually organised. Frames are like envelopes that carry data and ensures it gets to the right place. Some of the components that do the job here are MAC address, switches and bridges.
+  3. Network layer- This layer determines how data is sent to the recipient, on top of that it manages packet forwarding including routing through different routers. It decides the best path for data to travel across different networks, ensuring it gets to the right place. Some of the components that work in this layer are IP addresses and routers. Data in this layer are organised into packets,  packets are like little parcels that carries data from one device to another, this is where IP addressing comes in, it handles where packets go to, and routers are the components that allows them to do this job by directing data packets across the best paths across the networks.
+  4. Transport layer- This layer is responsible for providing reliable data transfer services across to the upper layers, think of it like a delivery service that ensures your data parcels arrive safely and in the correct sequence. Now some of the protocols that allows it to do this job are TCP and UDP
+  5. Session Layer- This layer is responsible for three things, establishing, managing and terminating sessions. Establising a session means getting a session started, for example logging in to a website and maintaning a session means keeping the session alive. Some of the example components are management protocols like RPC, NetBIOS and more.
+  6. Presentation Layer- This layer is sometimes known as a syntax layer as it ensures data being sent is in a useable or readable format. This layer can handle encryption ensuring data security as well as data formatting
+  7. Application Layer- This layer provides network services directly to applications. It handles things like web browsing, file transfers and emails, some of the example protocols are HTTP used for accessing websites.FTP used for transferring files.
