@@ -43,3 +43,9 @@
 
   <img width="434" height="220" alt="image" src="https://github.com/user-attachments/assets/9f826b4f-a1d6-4122-be76-77eef2cb5dbe" />
 
+## Ports & Protocols
+
+- Ports can be described as logical doors on your device, each door is numbered and each number is used for a specific type of network communication.
+- When your computer wants to send data, it uses ports to ensure data gets sent to the right place.
+- Protocols are a set of rules that  define how data is formatted and transmitted across a network.
+- Without Ports and Protocols network communicaton would be a mess, ports ensure data gets sent to the right application on your device while Protocols ensure data is understandable  and formatted for smooth communication. 
