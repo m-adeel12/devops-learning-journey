@@ -104,4 +104,10 @@
 - Zone files are stored inside your name servers, and they contain information about the domain. They help name servers answer queries about how to get to the domain if the name server doesnt know the answer directly.
 - Zone files organise your DNS information in a readable and managed way, making it easier to handle DNS records. 
      
-  
+- Zone files are comprised of multiple resource records. Each record contains specific information about hosts, name servers and various other resources.
+- Some components of the resource record are record names, TTL, Class, Type, Data
+
+
+  <img width="449" height="169" alt="image" src="https://github.com/user-attachments/assets/89ee2d84-925e-40cc-95ac-4dc6fca47025" />
+
+
