@@ -110,4 +110,10 @@
 
   <img width="449" height="169" alt="image" src="https://github.com/user-attachments/assets/89ee2d84-925e-40cc-95ac-4dc6fca47025" />
 
+## DNS Records 
 
+. A - Maps a domain name to an IPv4 address
+. AAAA - Maps a domain name to an IPv6 address 
+. CNAME - Alias of one name to another, allows you to match multiple domain names to the same IP address, example www.google.com > google.com
+. MX - Specifies the mail server responsible for recieving email for the domain
+. TXT - Allows domain administrators to insert any text into DNS. Commonly used for verification purposes and to hold SPF(Sender Policy Framework) data
