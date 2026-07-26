@@ -92,4 +92,16 @@
     <img width="435" height="248" alt="image" src="https://github.com/user-attachments/assets/fcc65bea-d8d7-4870-a56b-d12d7fc62ba3" />
  
 ## Domain Name System (DNS)
-- In simple terms DNS allows us humans to keep track of websites and hosts by name instead of an IP address, think of it like a contact for the internet, if you dont know someones name you can easily search it up rather then having to memorise their number, same conecpt applies to DNS, it simplifies navigation on the Internet and is essential for accessing wesbites and services. 
+- In simple terms DNS allows us humans to keep track of websites and hosts by name instead of an IP address, think of it like a contact for the internet, if you dont know someones name you can easily search it up rather then having to memorise their number, same conecpt applies to DNS, it simplifies navigation on the Internet and is essential for accessing wesbites and services.
+
+## DNS Components 
+
+- Name servers are crucial for DNS functionality, they load DNS settings and configurations, and also respond to your queries from clients or other servers about domain names.
+- There are two types
+  1. Authoritative servers - These servers hold the actual DNS records
+  2. Recursive servers - These servers do not hold the final answer. Instead they query the other name servers on behalf of the client to find the correct DNS record.
+
+- Zone files are stored inside your name servers, and they contain information about the domain. They help name servers answer queries about how to get to the domain if the name server doesnt know the answer directly.
+- Zone files organise your DNS information in a readable and managed way, making it easier to handle DNS records. 
+     
+  
