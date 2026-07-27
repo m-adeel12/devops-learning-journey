@@ -117,3 +117,11 @@
 . CNAME - Alias of one name to another, allows you to match multiple domain names to the same IP address, example www.google.com > google.com
 . MX - Specifies the mail server responsible for recieving email for the domain
 . TXT - Allows domain administrators to insert any text into DNS. Commonly used for verification purposes and to hold SPF(Sender Policy Framework) data
+
+# How DNS works ?
+
+- DNS resolution is essentially the process of converting domain names into IP addresses.
+- DNS Hierarchy:
+1. DNS Root is at the top of the hierarchy it keeps high level of information on where to find top level domains underneath it.
+2. Top Level Domains also called TLDs - these are like your department heads it includes familiar extensions like (.com,org .net etc). Each TLD stores informations about domains within its scope.
+3. Authoritative name servers 
