@@ -124,4 +124,29 @@
 - DNS Hierarchy:
 1. DNS Root is at the top of the hierarchy it keeps high level of information on where to find top level domains underneath it.
 2. Top Level Domains also called TLDs - these are like your department heads it includes familiar extensions like (.com,org .net etc). Each TLD stores informations about domains within its scope.
-3. Authoritative name servers 
+3. Authoritative name servers hosts zones for domains meaning that they have the detailed DNS records for the domains.
+4. Lastly Domains, each domain has a zone and a zone file. Zone files contain detailed records of the domain. This is where all the specific information like IP addresses and mail servers of the domains are stored.
+
+
+## Domain Registrar vs DNS Hosting Provider 
+
+- Domain Registrar: This entity allows you to purchase and register domains, they have a relationship with TLD's. The registry communicates with TLD registry to register domains
+- DNS Hosting Provider: This entity operates DNS name servers that hosts DNS zones. They allow you to manage DNS records within these zones.
+
+## DNS Tools
+
+- nslookup: Its a widely used tool for querying DNS servers, it provides the DNS records and all the other information for the domain.
+- dig: Its a much more advanced DNS tool then nslookup and is used for DNS troubleshooting and lookups.
+
+  
+  <img width="634" height="404" alt="image" src="https://github.com/user-attachments/assets/17eccb27-3108-42d4-913c-7ee12e02fe64" />
+
+## /etc/hosts File
+
+- etc/hosts is a local file in your computer that maps domain names in to IP addresses. It essentially allows you to override DNS settings for certain domains by providing an alternative IP address
+- Example: When you type a domain name in to your browser it first checks the etc/hosts file in your machine. If it is listed in the file it uses the provided the IP address rather then querying the DNS server. This can be useful for testing, development and even troubleshooting.
+
+
+  
+
+   
