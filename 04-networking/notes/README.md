@@ -162,5 +162,35 @@
 - Dymaic routing is scalable unlike static routing and is more suitable for large/complex networks.
   
 
+## Common Routing Protocols
 
+- Routing protocols automate the best path for data to travel across a network.
+- OSPF(Open Shortest Path First): This protocol finds the shortest path for data to travel and is used mainly in large organisations.
+- BGP (Broader Gateway Protocol): This protocol is used to route data between different autonomous systems. Think of autonomous systems as large networks managed by single organisations. It uses a path vector mechanism, menaing that it maintains the path formation that gets updated dynamically as the network topology changes.
+- BGP allows network admins to define routing policies based on various attributes. This provides greater control of how traffic flows through a network.
    
+## Subnetting & CIDR 
+
+- Subnetting is dividing large networks in to smaller managable networks
+- It determines which part of the IP address is host vs network
+- CIDR (Classless Inter-domain Routing): Its essentially a method for allocating IP addresses and IP routing packets.
+- example: 192.168.1.0/24
+- Subnet mask is used to divide an IP address in to a network and host portion. It allows routers to determine what part of the IP address is host and what part of it is network.
+
+ ## Network Address Translation (NAT)
+
+ - NAT translates private IP addresses into public, it facilitates communication between the internal network and the internet. Without NAT each of your own device would need a public IP address in order to access the internet.
+ - NAT process:
+   1. Internal devices use private IP addresses
+   2. Router translates private IP into a public IP
+   3. This translation allows your device to communicate with the external network
+
+## Types of NAT 
+
+- Static NAT: Maps a single private IP address in to a single public IP address
+- Dynamic NAT: Maps a private IP address to one of many public IP addresses
+- PAT (Port Address Translation): It allows multiple devices on a local network to be mapped to a single IP address but with different port numbers.
+- Benifits of NAT:
+  1. Conserves public IP addresses
+  2. Enhances Network security
+  3. Simplifies Network Design and Management  
