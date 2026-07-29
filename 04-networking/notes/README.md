@@ -147,6 +147,20 @@
 - Example: When you type a domain name in to your browser it first checks the etc/hosts file in your machine. If it is listed in the file it uses the provided the IP address rather then querying the DNS server. This can be useful for testing, development and even troubleshooting.
 
 
+## Routing 
+
+- Routing is the process of determining the best path for your data to travel across networks. Think of it like a GPS for your data that decides the best route to get from point A to point B.
+- Routing ensures data reaches its destination quickly and efficiently. Without it, our data would simply get lost or would take forever to reach its destination.
+- Routing is fundamental for the internet to function smoothly.
+- Routing table is the component that makes the decision to where data should go.
+- Routing matters in DevOps because, when you have a good route or an effective one, it ensures that your data packets take the most efficient path, reducing latency so its much faster, this improves overall network performance.
+
+## Static vs Dynamic Routing
+
+- Static routing essentially is where routes are manually set up by network admins. Its like giving your data a fixed map to follow. Its a reliable however doesnt adapt well if there are changes to the route, if the route changes you have to manually update it.
+- Dynamic routing on the other hand uses algorithms and much more complex protocols to automatically find the best path for data. Its more flexible and adapts to network changes.
+- Dymaic routing is scalable unlike static routing and is more suitable for large/complex networks.
   
+
 
    
