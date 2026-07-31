@@ -15,3 +15,18 @@ I purchased a domain using AWS Route 53.
 
 <img width="956" height="499" alt="image" src="https://github.com/user-attachments/assets/29a6e5fc-7c3d-4f1e-ab98-0c5db8df5792" />
 
+## 2. Launching the EC2 Instance
+
+## Configuration:
+
+- AMI: Amazon Linux 2 / Ubuntu
+
+- Instance type: t2.micro
+
+- Security Group:
+
+    HTTP (80) → 0.0.0.0/0
+
+    SSH (22) → My IP
+
+  
