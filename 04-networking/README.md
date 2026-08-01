@@ -15,10 +15,25 @@ I purchased a domain using AWS Route 53.
 
 <img width="956" height="499" alt="image" src="https://github.com/user-attachments/assets/29a6e5fc-7c3d-4f1e-ab98-0c5db8df5792" />
 
-## 2. Hosted Zone Setup (Route 53)
+## Launching the EC2 Instance
 
-After purchasing my domain madeelcloud.com, I created a Public Hosted Zone in Route 53.
-This hosted zone stores all DNS records for the domain.
+## Configuration
+
+-  AMI: Amazon Linux 2 / Ubuntu
+-  Instance type: t2.micro
+-  Security Group:
+   HTTP (80) → 0.0.0.0/0
+   SSH (22) → My IP only
+
+## Public IP 
+
+Found under EC2 → Instances → Instance Summary → Public IPv4 address
+
+
+<img width="940" height="473" alt="image" src="https://github.com/user-attachments/assets/0a752818-3052-4cf2-b9ee-afa46d9abe73" />
+
+
+<img width="940" height="407" alt="image" src="https://github.com/user-attachments/assets/f9efd31e-e555-40e4-ba2c-61928ddccab8" />
 
 
 
