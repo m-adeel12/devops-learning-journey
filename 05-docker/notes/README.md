@@ -15,3 +15,11 @@
 - Isolation: Each container is isolated, they have their own environment to run applications. This isolation prevents conflict and ensures each application runs smoothly without interfering  with each other.
 - Consistency: It provides a consistent environment for applications to run, meaning applications behave the same way regardless of where its deployed making development and deployment more productive and reliable.
 - Efficient: Containers are essentially sharing the whole systems kernel which reduces overhead and allows for more containers to run on the same hardware. This makes containers faster to start up and less resource incentive. 
+
+## Docker 
+
+- Docker is an open platform for developing, shipping and running applications in containers.
+- Docker has several key components:
+  . Docker Hub - Its a repository where you can find and share container images
+
+  <img width="480" height="260" alt="image" src="https://github.com/user-attachments/assets/db021111-13b5-4aed-83f9-958601cb4078" />
