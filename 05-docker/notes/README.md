@@ -1,33 +1,10 @@
-# Notes
+## What are Containers ?
 
-Add your notes here as you progress through this module.
+- Containers are lightweight portable units used for running applications.
+- It will include include the code, runtime, libraries and anything I need including the dependencies needed to run an application.
 
-## Template
 
-When creating a new note, you can use this structure:
+  <img width="413" height="232" alt="image" src="https://github.com/user-attachments/assets/7231bf24-6e86-4cb3-afb8-008080579141" />
 
-```markdown
-# Topic Name
-
-## Key Concepts
-
-- Point 1
-- Point 2
-
-## Commands
-
-`command` - what it does
-
-## Examples
-
-(code examples)
-
-## What I Learned
-
-(your own summary)
-```
-
-## Your Notes
-
-- [ ] Add your first note
-
+- Infrastructure represents the physical or virtual hardware where everything runs
+- Docker engine provides the environment to build, run and manage containers.   
