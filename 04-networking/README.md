@@ -54,7 +54,7 @@ I created an A Record pointing my domain to the EC2 public IPv4 address.
 <img width="959" height="511" alt="image" src="https://github.com/user-attachments/assets/b2a74293-0dc3-4737-9b31-13ea77837cc7" />
 
 ## What I Learned
--How DNS resolves domains to IPs
+- How DNS resolves domains to IPs
 
 - How routing directs traffic to EC2
 
