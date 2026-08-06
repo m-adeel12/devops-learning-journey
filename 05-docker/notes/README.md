@@ -39,4 +39,16 @@
 
 <img width="444" height="201" alt="image" src="https://github.com/user-attachments/assets/851e2ecf-2683-42fd-85a1-ded7f47e006c" />
 
+## VMs Vs Containers
+
+- Virtual machine allows multiple operating systems to run on a single physical machine , each virtual machine has a guest operating system making it resource intensive and slower to start.
+- Containers on the other hand are lightweight and efficient way to isolate applications, they share the hosts operating system but instead of using a hypervisor they run on a docker engine. Contains don't have a guest operating system they sit on top of the host kernel which makes them lighter then VMs.
+- Each Virtual machine needs to boot up a guest operating system which can take minutes, containers on the other hand share the host operating system and can start up in seconds.
+- When it comes to resource usage  each VM includes a full host operating system which consumes significant resources. Containers are more efficient by using only what's necessary for the application and its dependencies.
+- VMs provide a strong isolation with each VM having its own operating system. Containers provide process level isolation which means they share the hosts operating system kernel but they are isolated within the container itself
+- VMs are less portable due to their size and dependency on hypervisors. Containers are highly portable and can run consistently across different environments.
+
+
+<img width="491" height="255" alt="image" src="https://github.com/user-attachments/assets/03ff2f69-5230-466c-ac1c-eb5db6cc6a6c" />
+
   
