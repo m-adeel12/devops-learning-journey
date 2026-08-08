@@ -51,4 +51,13 @@
 
 <img width="491" height="255" alt="image" src="https://github.com/user-attachments/assets/03ff2f69-5230-466c-ac1c-eb5db6cc6a6c" />
 
+## Understanding Docker Files 
+
+- 5 KEY COMMANDS
+
+  1. FROM - Specifies the base image to use to for the Docker image
+  2. RUN - This command is used to execute commands in the container, for example its used to install packages, update dependencies and so on.
+  3. COPY - This command copies files from the host machine into the container
+  4. WORKDIR- Sets the working directory for subsequent instructions, this ensures the command runs in the correct directory within the container.
+  5. CMD- Specifies the command to run when the container starts 
   
