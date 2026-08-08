@@ -61,3 +61,10 @@
   4. WORKDIR- Sets the working directory for subsequent instructions, this ensures the command runs in the correct directory within the container.
   5. CMD- Specifies the command to run when the container starts 
   
+## Docker Networking 
+
+- Docker provides several default network options that you can use to manage how networks containers communicate.
+- Bridge Network is a default network mode for containers on the same machine, containers on the bridge network can communicate with each other using their own IP addresses.
+- Host mode - In host mode a container uses the host machines network directly without any isolation. This is useful for containers that need to interact closely with the hosts system.
+- None- This option gives a container no network interface at all which makes it completely isolated. This is used when you want to ensure a container has no network access whatsoever which could be useful for certain security scenarios
+- In the context of DevOps, Docker Networking is extremely important because it simplifies the implementation of microservices architecture. Microservices allow different parts of an application to run as independent services each in its own container. It ensures these services can communicate with each other efficiently and securely. 
