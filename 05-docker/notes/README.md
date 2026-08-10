@@ -68,3 +68,10 @@
 - Host mode - In host mode a container uses the host machines network directly without any isolation. This is useful for containers that need to interact closely with the hosts system.
 - None- This option gives a container no network interface at all which makes it completely isolated. This is used when you want to ensure a container has no network access whatsoever which could be useful for certain security scenarios
 - In the context of DevOps, Docker Networking is extremely important because it simplifies the implementation of microservices architecture. Microservices allow different parts of an application to run as independent services each in its own container. It ensures these services can communicate with each other efficiently and securely. 
+
+## Docker Compose 
+
+- Docker Compose provides a powerful and efficient way to manage multiple container docker applications.
+- At the heart of Docker Compose is a Docker Compose Yaml file, this yaml file lists all the services your application needs, its like a blueprint that specifies details like what image to use, which port to expose, and how the containers should interact.
+- It allows you to orchestrate your entire stack with minimal effect.
+- When you use Docker Compose it automatically creates a network for your containers, before we had to create a custom network 
