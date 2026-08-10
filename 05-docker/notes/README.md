@@ -75,3 +75,5 @@
 - At the heart of Docker Compose is a Docker Compose Yaml file, this yaml file lists all the services your application needs, its like a blueprint that specifies details like what image to use, which port to expose, and how the containers should interact.
 - It allows you to orchestrate your entire stack with minimal effect.
 - When you use Docker Compose it automatically creates a network for your containers, before we had to create a custom network 
+
+<img width="462" height="236" alt="image" src="https://github.com/user-attachments/assets/5029feb9-d005-4602-84f7-5b9f5a5c495b" />
