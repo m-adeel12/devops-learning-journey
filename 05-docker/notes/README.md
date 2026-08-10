@@ -77,3 +77,9 @@
 - When you use Docker Compose it automatically creates a network for your containers, before we had to create a custom network 
 
 <img width="462" height="236" alt="image" src="https://github.com/user-attachments/assets/5029feb9-d005-4602-84f7-5b9f5a5c495b" />
+
+## Importance of Docker Compose in DevOps 
+
+- It makes development and testing easier, you can easily spin up your desired environment using a single command in Docker Compose allowing developers to focus more on code rather then the infrastructure. 
+- Ensures Consistency, by defining your environment in a yaml Docker Compose file, you guarantee that every developer, tester and CI/CD pipeline uses the exact same setup. This consistency reduces bugs and errors leading to more reliable software.
+- Enhances teamwork, when every team member is using the same environment, it makes it much easier to share the code configurations and even the environment set up itself, in summary it makes it easier to version control your infrastructure. 
