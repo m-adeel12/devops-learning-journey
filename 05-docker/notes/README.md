@@ -100,3 +100,5 @@
 - Ensures consistency across different environments. By storing your image in a registry you can be sure that the exact same image is used in development, testing and production. Once again it removes the it works on my machine problem.
 
    <img width="479" height="255" alt="image" src="https://github.com/user-attachments/assets/d06f0f63-d57e-48a7-94f2-2e340937553a" />
+
+- A popular Docker Registry is Docker hub where developers share docker images with each other.    
