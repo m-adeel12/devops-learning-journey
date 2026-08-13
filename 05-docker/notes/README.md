@@ -83,3 +83,20 @@
 - It makes development and testing easier, you can easily spin up your desired environment using a single command in Docker Compose allowing developers to focus more on code rather then the infrastructure. 
 - Ensures Consistency, by defining your environment in a yaml Docker Compose file, you guarantee that every developer, tester and CI/CD pipeline uses the exact same setup. This consistency reduces bugs and errors leading to more reliable software.
 - Enhances teamwork, when every team member is using the same environment, it makes it much easier to share the code configurations and even the environment set up itself, in summary it makes it easier to version control your infrastructure. 
+
+
+# Docker Registries 
+
+- Think of Docker Registry as a storage or distribution hub for your docker images
+- Key features of a Docker Registry:
+- Public Registry: Its a place where you can share your images with the world
+- Private Registry: They allow you to control who can have access to your images, this is crucial when dealing with sensitive or proprietary applications.
+
+
+# Importance of Docker Registry in DevOps
+
+- They streamline the deployment process, once your docker images are stored in the registry they can be easily accessed and deployed across multiple environments from deployment all the way to production, meaning that its easier to roll out updates or new features.
+- Enhances collaboration - when your image is stored in a centralised registry, everyone on your team has access to the same resources. This makes it easier to share and manage your images, improving teamwork and efficiency.
+- Ensures consistency across different environments. By storing your image in a registry you can be sure that the exact same image is used in development, testing and production. Once again it removes the it works on my machine problem.
+
+   <img width="479" height="255" alt="image" src="https://github.com/user-attachments/assets/d06f0f63-d57e-48a7-94f2-2e340937553a" />
