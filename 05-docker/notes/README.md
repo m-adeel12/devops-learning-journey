@@ -106,4 +106,18 @@
 # Brief Kubernetes Introduction 
 
 - Kubernetes is an open source platform designed to automate the deployment, scaling and operation of application containers. It provides enhanced features like container orchestration, automatic scaling and self healing.
-- Think of it like a powerful manager that oversees all of your containers, it make sures all your containers are deployed correctly, can scale up and down to meet demand, and automatically recovers from failures.  
+- Think of it like a powerful manager that oversees all of your containers, it make sures all your containers are deployed correctly, can scale up and down to meet demand, and automatically recovers from failures.
+
+# Docker Swarm VS Kubernetes 
+
+- Docker swarm is Docker's native clustering and orchestration tool seamlessly built in to docker, its more suitable for smaller and less complex deployments 
+- Kubernetes offers  greater flexibility and scalability which is essential for large scale enterprise level deployments
+- Docker Swarm does not have built in autoscaling which means you need to manage scaling manually or using external tools
+- Its easier to start a cluster in Docker Swarm
+- K8s or Kubernetes has built in features which allows your application to automatically scale up or down based on demand which is critical for handling fluctuating workloads.
+- It is difficult to start a cluster in Kubernetes, starting a cluster requires deeper understanding of the tool and its components
+- Kubernetes is not limited to API capabilities unlike Docker Swarm meaning that it can work with range of applications offering more advanced features.
+
+     <img width="479" height="232" alt="image" src="https://github.com/user-attachments/assets/43ad8ffb-237d-40a5-a9da-942c660abffc" />
+
+  
