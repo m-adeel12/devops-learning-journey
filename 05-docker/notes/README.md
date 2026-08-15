@@ -120,4 +120,8 @@
 
      <img width="479" height="232" alt="image" src="https://github.com/user-attachments/assets/43ad8ffb-237d-40a5-a9da-942c660abffc" />
 
+# Why use Orchestration tools?
+
+- As your applications grows in complexity and scales managing containers manually becomes increasingly difficult. Orchestration tools are designed to help you manage large scale deployments and ensure that your application runs smoothly across multiple environments
+- One of the benefits of using orchestration tools is that they ensure high availability for your applications. They automatically monitor the state of your application and can restart or locate them incase of a failure. This ensures your applications remain available and recover from failures without manual intervention.
   
