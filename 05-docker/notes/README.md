@@ -102,3 +102,8 @@
    <img width="479" height="255" alt="image" src="https://github.com/user-attachments/assets/d06f0f63-d57e-48a7-94f2-2e340937553a" />
 
 - A popular Docker Registry is Docker hub where developers share docker images with each other.    
+
+# Brief Kubernetes Introduction 
+
+- Kubernetes is an open source platform designed to automate the deployment, scaling and operation of application containers. It provides enhanced features like container orchestration, automatic scaling and self healing.
+- Think of it like a powerful manager that oversees all of your containers, it make sures all your containers are deployed correctly, can scale up and down to meet demand, and automatically recovers from failures.  
