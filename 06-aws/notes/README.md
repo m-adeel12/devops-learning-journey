@@ -1,33 +1,26 @@
-# Notes
+# AWS 
 
-Add your notes here as you progress through this module.
+- AWS stands for Amazon Web services, its a cloud provider that provides computing resources over the internet.
 
-## Template
 
-When creating a new note, you can use this structure:
 
-```markdown
-# Topic Name
+# AWS Use Cases 
 
-## Key Concepts
+- AWS enables you to build sophisticated, scalable applications.
+- Use Cases include:
+  . Enterprise IT, backup & storage, Big data analytics
+  . Website hosting, mobile & social apps
+  . Gaming
 
-- Point 1
-- Point 2
+# AWS Regions
 
-## Commands
+- A region is a cluster of data centres
+- Having multiple regions ensures things run smoothly for example if one region goes down AWS can automatically switch to another.
+- AWS Region is all about giving you control of where your data and services live.
 
-`command` - what it does
+# How to choose an AWS Region ?
 
-## Examples
-
-(code examples)
-
-## What I Learned
-
-(your own summary)
-```
-
-## Your Notes
-
-- [ ] Add your first note
-
+. Compliance with data governance and requirements: data never leaves a region without your explicit permission
+. Proximity to customers: reduced latency 
+. Available services within a region: not every service or feature would be available in your region.
+. Pricing: pricing varies region to region so its important from an angle of scaling a business 
