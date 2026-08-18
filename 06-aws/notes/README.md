@@ -24,3 +24,12 @@
 . Proximity to customers: reduced latency 
 . Available services within a region: not every service or feature would be available in your region.
 . Pricing: pricing varies region to region so its important from an angle of scaling a business 
+
+# AZ
+
+- Each AWS region is made up of many availability zones
+- AZ is one or more discrete data centres with redundant power, connectivity and networking.
+
+# Edge Location 
+
+- Edge location is where physical server resources are deployed close to end users for low latency access. 
