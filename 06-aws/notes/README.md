@@ -32,4 +32,15 @@
 
 # Edge Location 
 
-- Edge location is where physical server resources are deployed close to end users for low latency access. 
+- Edge location is where physical server resources are deployed close to end users for low latency access.
+
+# IAM Permissions 
+
+- Users on groups on AWS can be assigned JSON documents called policies, these policies define permissions of the users.
+- In AWS we apply the least privilege principle which means only giving user access to what they need.
+
+<img width="536" height="299" alt="image" src="https://github.com/user-attachments/assets/d66b4a0b-e96e-4247-97b2-2d410fa2908a" />
+
+- Having MFA on your root account is crucial from a security standpoint as you don't want a user accessing your account and making changes such as deleting resources in your AWS account. 
+
+  
