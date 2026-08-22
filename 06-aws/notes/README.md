@@ -64,3 +64,24 @@
 
 - IAM Credential Report (account level) : It gives you a snapshot of all the users in your AWS account and the status of the various credentials.
 - IAM Access Advisor (user-level) : It shows the permissions granted to a user and when those services were last accessed, you can use this information to revise your policies. 
+
+# Amazon Compute 
+
+- Compute is essentially the power behind running your application.
+
+# EC2 
+
+- EC2 stands for Elastic Compute Cloud, its part of infrastructure as a service
+- Its allows you to do the following things:
+  . Rent Virtual Machines (EC2)
+  . Store data on virtual drives (EBS)
+  . Distribute load across machines
+  . Scaling services using auto-scaling groups
+
+# EC2 User Data 
+
+- It is possible to bootstrap our instances using an EC2 User data script, bootstrapping means launching commands when a machine starts.
+- EC2 User data is used to automate boot tasks such as:
+  . Installing updates
+  . Installing software
+  . Downloading common files from the Internet
