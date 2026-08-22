@@ -60,3 +60,7 @@
 - In simple words AWS SDK is a bunch of programming languages  that allows you to interact with AWS services and build powerful cloud integration apps. 
 
   
+# IAM Security Tools 
+
+- IAM Credential Report (account level) : It gives you a snapshot of all the users in your AWS account and the status of the various credentials.
+- IAM Access Advisor (user-level) : It shows the permissions granted to a user and when those services were last accessed, you can use this information to revise your policies. 
