@@ -44,3 +44,19 @@
 - Having MFA on your root account is crucial from a security standpoint as you don't want a user accessing your account and making changes such as deleting resources in your AWS account. 
 
   
+# How users can access AWS ?
+
+- Users can access AWS using three ways
+  . AWS management console which is protected by password + MFA
+  . AWS Command Line Interface - protected by access keys which are generated using the console
+  . AWS Software Development Kit - This is where you programmatically interact with AWS which is also protected by access keys.
+
+# AWS CLI 
+
+- AWS CLI allows you to automate tasks by running scripts rather then manually provisioning resources which also known as click ops.
+
+# AWS SDK 
+
+- In simple words AWS SDK is a bunch of programming languages  that allows you to interact with AWS services and build powerful cloud integration apps. 
+
+  
