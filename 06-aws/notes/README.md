@@ -103,3 +103,18 @@ Naming convention:
 # EC2 Instance Purchasing options 
 
 <img width="479" height="266" alt="image" src="https://github.com/user-attachments/assets/7552a3b0-0f2b-49f6-8017-244560f7fcc7" />
+
+# Security Groups
+
+- Security groups are the  fundamental in the network security in AWS.
+- They control how traffic is allowed in and out of an EC2 instance.
+- Security groups only deal with allow rules, in comparison with firewalls where you can have both allow and deny rules.
+- Security groups are stateful, that means if you allow inbound traffic the corresponding outbound traffic is automatically allowed.
+- Security groups regulate access to ports and authorised IP's
+
+# Security Groups (Good to Know)
+
+- SG's can be attached to multiple instances
+- If your application is not accessible its a security group issue.
+- All inbound traffic is blocked by default
+- All outbound traffic is allowed by default
