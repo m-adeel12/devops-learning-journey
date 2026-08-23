@@ -100,3 +100,6 @@ Naming convention:
 <img width="422" height="76" alt="image" src="https://github.com/user-attachments/assets/7732ff87-1b51-47f8-a164-a69f52554059" />
 
 
+# EC2 Instance Purchasing options 
+
+<img width="479" height="266" alt="image" src="https://github.com/user-attachments/assets/7552a3b0-0f2b-49f6-8017-244560f7fcc7" />
