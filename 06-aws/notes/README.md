@@ -125,3 +125,15 @@ Naming convention:
 - If you need to have a fixed public IP for your instance, you need an elastic IP
 - Elastic IP is a public IPV4 address you own as long as you don't delete it
 - You can attach it to one instance at a time. 
+
+# EBS Volume
+
+- EBS Volume is like a network drive you can attach to your EC2 instance.
+- It allows your instances to persist data even if you have terminated or stopped it.
+- Each EBS Volume is bound to a specific availability zone
+- EBS Volume is ideal if you want to store data for a long period of time for databases or logs, it ensures your data is kept safe.
+
+
+# AMI (Amazon Machine Image)
+
+- AMI is a preconfigured template that contains all the information needed to launch an instance such as your OS, software configuration, monitoring tools and more.
