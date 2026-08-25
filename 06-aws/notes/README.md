@@ -118,3 +118,10 @@ Naming convention:
 - If your application is not accessible its a security group issue.
 - All inbound traffic is blocked by default
 - All outbound traffic is allowed by default
+
+# Elastic IP
+
+- In AWS When you stop and start an EC2 instance it can change its public IP.
+- If you need to have a fixed public IP for your instance, you need an elastic IP
+- Elastic IP is a public IPV4 address you own as long as you don't delete it
+- You can attach it to one instance at a time. 
