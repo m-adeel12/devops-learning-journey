@@ -173,3 +173,27 @@ Naming convention:
 
 - High Availability is running your application or systems in multiple locations to ensure that if one part fails the other can take over.
 - It goes hand in hand with horizontal scaling, the main objective of HA is to survive a data centre loss. 
+
+# Load Balancing
+
+- Load Balancing is a way to distribute traffic across multiple servers or instances
+- The load balancer checks which instance is healthy and automatically directs traffic towards it.
+- Reverse proxies are similar to load balancers but with extra functionality , they are key to building scalable and resilient applications.
+
+# Why use a Load Balancer ?
+
+- The primary purpose of a load balancer is to distribute incoming traffic across multiple instances. This prevents any one instance from being overloaded.
+- It seamlessly handles instance failures
+- Load Balancers constantly checks the health of your instances.
+- It provides SSL termination for your instances
+- Enforces stickiness with cookies
+- Ensures HA across zones
+- It can separate public and private traffic
+
+# Why use an Elastic Load Balancer ?
+
+- Elastic load balancer is a managed load balancer.
+   . AWS guarantees it will be working
+   . It also handles upgrades, maintenance and high availability
+   . It is fully integrated with other AWS services making it a powerful option.   
+  
