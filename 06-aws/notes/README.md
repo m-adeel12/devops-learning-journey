@@ -137,3 +137,39 @@ Naming convention:
 # AMI (Amazon Machine Image)
 
 - AMI is a preconfigured template that contains all the information needed to launch an instance such as your OS, software configuration, monitoring tools and more.
+- In simple words AMI allows you to automate the setup of your EC2 instance.
+
+# Amazon EFS- Elastic File System
+
+- Its a managed network file system which allows you to create a shared file system that can be mounted across multiple instances at the same time.
+- It is designed to be used in multi AZ setups making it durable and reliable.
+- It can be quite expensive
+- Its best to use it when your application needs shared storage across multiple instances.
+
+  # Scalability & High Availability
+
+- Scalability means an application/ system can handle greater loads by adapting.
+- There are two kind of Scalability:
+  . Vertical Scalability
+  . Horizontal Scalability
+- High Availability ensures your application keeps running even when parts of it fails.
+
+# Vertical Scalability  
+
+- Vertical Scalability means increasing the size or power of your instance.
+- For example, you have an application running on t2.micro and you want to scale it to t2.large this is known as vertical scalability.
+- We tend to use Vertical Scalability when for non-distributed systems such as databases
+- There is usually limit to how much you can scale before you start looking at different scaling options.
+
+
+# Horizontal Scalability 
+
+- Horizontal Scalability is to increase the number of instances in your application or system to handle more load.
+- Horizontal Scalability implies distributed systems, for example instead of relying one powerful machine you spread the workload across multiple smaller ones.
+- It's particularly common for web applications and cloud based systems.
+- It adds resilience to your system, so if one fails the other can take over.
+
+# High Availability
+
+- High Availability is running your application or systems in multiple locations to ensure that if one part fails the other can take over.
+- It goes hand in hand with horizontal scaling, the main objective of HA is to survive a data centre loss. 
