@@ -197,3 +197,17 @@ Naming convention:
    . It also handles upgrades, maintenance and high availability
    . It is fully integrated with other AWS services making it a powerful option.   
   
+# Health Checks 
+
+- Health checks enable a load balancer to know if the instance they are forwarding traffic to are healthy.
+- It does this by sending a request to a certain port/route
+- Response 200 indicates the instance is healthy.
+
+# Application Load Balancer (ALB)
+
+- ALB operates on the 7th layer
+- It has the ability to load traffic to multiple HTTP applications across different instances all within target groups.
+- It can also load balance traffic across multiple HTTP applications on the same machine, this is super useful in environments like containers.
+- ALB is perfect for microservices and container based applications
+- When running ECS, ALB has a feature called port mapping which allows it  to dynamically redirect traffic to containers running on different ports.
+- Thanks to its routing features ALB can handle multiple applications on a single load balancer whereas a classic load balancer can only handle one application. This is a massive improvement in terms of cost and infrastructure management 
