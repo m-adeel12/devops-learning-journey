@@ -215,4 +215,17 @@ Naming convention:
 # Application Load Balancer (HTTP Based Traffic)
 
 - Users send HTTP request to the ALB which then routes those requests to the appropriate target groups based on its writing rules, now these target groups could consist of EC2 instances or even other resources like lambda or ECS. These target groups are tied to certain services
-- One target group could handle user related tasks such as logging, and another target group could handle things like product searches. 
+- One target group could handle user related tasks such as logging, and another target group could handle things like product searches.
+
+# Application Load Balancer (Target Group)
+
+- Target groups are essentially the groups of resources like EC2 instances, lambda, ECS that ALB routes traffic to based off certain route paths or writing rules.
+
+# Application Load Balancer (Good to Know)
+
+- ALB gives each load balancer a fixed hostname
+- The application servers don't see the IP of the client directly
+- The true IP of the client is inserted in to the header X-forwarded-Fo
+  
+  
+  
