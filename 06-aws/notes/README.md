@@ -228,4 +228,10 @@ Naming convention:
 - The true IP of the client is inserted in to the header X-forwarded-Fo
   
   
-  
+# Network Load Balancer 
+
+- Network load Balancers are optimised for handling extreme performance and high traffic with low latency.
+- They operate at layer 4 of the OSI model, which means it handles TCP/UDP traffic.
+- It is designed for high performance use cases when you want to handle millions of requests per second
+- NLB assigs one static IP address per AZ
+- NLB doesn't inspect HTTP headers or handle SSL termination, which is different from ALB. Its all about efficiently forwarding traffic without modifying it making it fast and more reliable.  
