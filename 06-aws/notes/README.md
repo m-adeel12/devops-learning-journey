@@ -206,8 +206,13 @@ Naming convention:
 # Application Load Balancer (ALB)
 
 - ALB operates on the 7th layer
-- It has the ability to load traffic to multiple HTTP applications across different instances all within target groups.
+- It has the ability to load traffic to multiple HTTP applications across different machines all within target groups.
 - It can also load balance traffic across multiple HTTP applications on the same machine, this is super useful in environments like containers.
 - ALB is perfect for microservices and container based applications
 - When running ECS, ALB has a feature called port mapping which allows it  to dynamically redirect traffic to containers running on different ports.
-- Thanks to its routing features ALB can handle multiple applications on a single load balancer whereas a classic load balancer can only handle one application. This is a massive improvement in terms of cost and infrastructure management 
+- Thanks to its routing features ALB can handle multiple applications on a single load balancer whereas a classic load balancer can only handle one application. This is a massive improvement in terms of cost and infrastructure management
+
+# Application Load Balancer (HTTP Based Traffic)
+
+- Users send HTTP request to the ALB which then routes those requests to the appropriate target groups based on its writing rules, now these target groups could consist of EC2 instances or even other resources like lambda or ECS. These target groups are tied to certain services
+- One target group could handle user related tasks such as logging, and another target group could handle things like product searches. 
