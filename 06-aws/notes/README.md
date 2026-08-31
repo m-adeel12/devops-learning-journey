@@ -280,3 +280,19 @@ Naming convention:
 - For CLB's this is referred to connection draining.
 - For ALB's and NLB's this is referred to Deregistration delay.
   
+# Auto Scaling Group
+
+- The primary purpose of an auto scaling group is to adjust the number of running EC2 instances based on load.
+- If your traffic increases, the ASG will scale out which means it will add more EC2 instances to meet up with the demand.
+- When the load decreases the ASG will; scale in meaning it will reduce the number of EC2 instances.
+- ASG's can automatically register new instances to load balancers.
+- The best part of it all is that ASG's are free.
+
+# Auto Scaling Group in AWS 
+
+- Auto Scaling groups operate based off three things - minimum capacity, desired capacity and maximum capacity
+- Minimum Capacity- is the least number of EC2 instances you want running even during low traffic times
+- Desired Capacity- is your target number of instances for normal load.
+- Maximum Capacity- this is the most  number of instances your allowing the ASG to scale up to during high periods of traffic.
+- Scaling ensures your application runs smoothly during busy times and saves money when the demand drops. 
+  
