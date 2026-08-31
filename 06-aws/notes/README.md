@@ -234,4 +234,33 @@ Naming convention:
 - They operate at layer 4 of the OSI model, which means it handles TCP/UDP traffic.
 - It is designed for high performance use cases when you want to handle millions of requests per second
 - NLB assigs one static IP address per AZ
-- NLB doesn't inspect HTTP headers or handle SSL termination, which is different from ALB. Its all about efficiently forwarding traffic without modifying it making it fast and more reliable.  
+- NLB doesn't inspect HTTP headers or handle SSL termination, which is different from ALB. Its all about efficiently forwarding traffic without modifying it making it fast and more reliable.
+
+# Sticky Sessions (Session Affinity)
+
+-  Sticky session ensures the client is routed to the same instance behind a load balancer.
+-  Behind the scenes, a load balancer uses a cookie to keep track of which instance a client is connected to. You can set an expiration date to control how long the cookie or stickiness lasts.
+-  Its primarily used so that the user doesn't lose their session data, for example they have carted an item and they want to keep their session open in order to make the necessary payment.
+-  Enabling stickiness may cause load over the backend of EC2 instances which can significantly affect performance.
+
+# SSL/TLS Basics 
+
+- SSL stands for secure socket layer
+- SSL certificate allows traffic between your client and load balancer to be encrypted in transit.
+- TLS stands for transport layer security, its the newer version of SSL.
+- Public SSL certificate are issued by certified authorities (CA)
+- Some common CA's are Comodo, Symantec, GoDaddy, GlobalSign etc.
+- SSL certificates have an expiration date and must be renewed.
+
+# Load Balancer - SSL Certificate 
+
+- Load balancers are basically the middleman ensuring traffic between your users and instances are encrypted.
+- This is done using an X.509 certificate
+- AWS allows us to manage these certificates by using an ACM (Amazon Certificate Manager)
+- Its a one stop shop for creating, renewing and managing certificates.
+- When your setting up a HTTPS listener on your load balancer this is how you ensure traffic is encrypted.
+  . You must specify a default certificate
+  . You can add an optional list of certs to support multiple domains
+  . Clients use SNI to specify the hostname they reach.
+  . Ability to specify a security policy to support older versions of SSL/TLS certificate. 
+  
