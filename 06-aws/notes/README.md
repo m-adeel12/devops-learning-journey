@@ -264,3 +264,19 @@ Naming convention:
   . Clients use SNI to specify the hostname they reach.
   . Ability to specify a security policy to support older versions of SSL/TLS certificate. 
   
+# SNI - Server Name Indication 
+
+- SNI solves the problem of loading multiple SSL certificates onto one web server
+- When your client makes the first connection to the web server, it sends the hostname of the website is trying to reach as part of the SSL handshake. The server uses this info to find the right SSL certificate for that website. If the server cant find a match it would then use the default certificate.
+- SNI only works with ALB and NLB's supporting multiple SSL certificates across different domains under one load balancer.
+
+
+# Connection Draining 
+
+- Connection Draining in AWS is a feature that allows a load balancer to gracefully remove an EC2 instance without dropping active user requests.
+- It ensures that when an  instance is  being removed, any in flight connections are allowed to finish before the instance is taken fully out of service.
+- Without connection draining, existing user requests get cut off, causing errors.
+- The Allowed range is between 1 -3600 seconds
+- For CLB's this is referred to connection draining.
+- For ALB's and NLB's this is referred to Deregistration delay.
+  
