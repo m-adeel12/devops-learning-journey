@@ -296,3 +296,9 @@ Naming convention:
 - Maximum Capacity- this is the most  number of instances your allowing the ASG to scale up to during high periods of traffic.
 - Scaling ensures your application runs smoothly during busy times and saves money when the demand drops. 
   
+# AWS ECS 
+
+-  AWS ECS is a repository where you can store and retrieve container images.
+-  ECS Cluster is the environment where your containers run on Amazon ECS.
+
+<img width="608" height="324" alt="image" src="https://github.com/user-attachments/assets/6d581740-043c-4ea5-a952-54688e7aef4a" />
