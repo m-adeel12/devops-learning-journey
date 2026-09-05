@@ -337,3 +337,14 @@ Naming convention:
    4. Easy monitoring through AWS cloudWatch
       
   
+# Serverless Thumbnail Creation- example 
+
+<img width="490" height="269" alt="image" src="https://github.com/user-attachments/assets/6b0c2a62-47fa-4cde-b8cf-c0efe46c82d3" />
+
+- Now imagine you added an image to your S3 bucket.
+- As soon as the image is uploaded it triggers an event
+- Lambda function which is your code here gets triggered by the event
+- The Lambda function here is to take the uploaded image and generate a smaller thumbnail version of it
+- Once it generates a smaller thumbnail version of it, it pushes this image back to the S3 bucket which could be a different bucket.
+- You can also push the metadata like your image size or name in to a Dyanamo DB table
+- Everything is fully automated, you upload the image AWS takes care of it
