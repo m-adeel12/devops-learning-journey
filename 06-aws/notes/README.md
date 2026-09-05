@@ -307,3 +307,33 @@ Naming convention:
 
 - Amazon EKS allows you to manage your Kubernetes clusters on AWS
 
+# Serverless 
+
+- Serverless is the new paradigm in which the developers don't have to manage servers anymore.
+- You just deploy your code
+
+# Serverless in AWS 
+
+- Dynamo DB: It's a fully managed serverless no SQL database that scales automatically without having to worry about provisioning.
+- AWS Cognito: This service helps manage user authentication making it easier to handle logins and sign ups in your applications
+- AWS API Gateway: It acts as a bridge between your users and lambda functions. It allows you to create and monitor APIs which interact with your backend services
+- AWS S3: It's used for storing files and static content and its completely serverless
+- AWS SNS & SQS: SNS handles notifications and SQS is for querying messages between services.
+- AWS Kinesis Data Firehose: Can be used to load streaming data in AWS for analysis and storage
+- Aurora Serverless: Its a fully serverless database that auto scales based on demand
+- Step Functions: Helps you manage workflows seamlessly
+- Fargate: Its the serverless compute option for containers, you don't need to manage any EC2 instances, AWS handles that while you just focus on containers. 
+
+ # Why AWS Lambda ?
+
+ - In AWS Lambda you don't manage servers at all.
+ - It runs on demand so only runs when you needed it, so your not paying for extra time like the EC2 instances
+ - Scaling is automated
+
+   . Benefits of Lambda
+   1. Pay per request and compute time:
+   2. Integrated with the whole suite of AWS services
+   3. Integrated with many programming languages
+   4. Easy monitoring through AWS cloudWatch
+      
+  
