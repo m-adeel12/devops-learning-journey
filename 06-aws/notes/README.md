@@ -302,3 +302,8 @@ Naming convention:
 -  ECS Cluster is the environment where your containers run on Amazon ECS.
 
 <img width="608" height="324" alt="image" src="https://github.com/user-attachments/assets/6d581740-043c-4ea5-a952-54688e7aef4a" />
+
+# AWS EKS 
+
+- Amazon EKS allows you to manage your Kubernetes clusters on AWS
+
