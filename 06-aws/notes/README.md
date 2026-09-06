@@ -384,3 +384,26 @@ Virtual Private Clouds (VPCs)
 - The security group of your private EC2 instance must allow inbound SSH from the bastion host either by Private IP or a secret group.
 - This allows you to securely manage your private EC2 instances without directly exposing them to the Internet. It adds an extra layer of protection in environments where security is critical  
   
+# NAT Gateway 
+
+- NAT Gateway is a managed service provided by AWS that allows instances in your private subnets to connect to the Internet whilst blocking incoming traffic from the Internet.
+- AWS managed NAT you pay per hour and usage.
+- NAT Gateways are tied to a specific AZ and use an elastic IP address. If you want redundancy across zones you would need to use multiple NAT gateways with one in each zone.
+- It requires an Internet Gateway to connect to the outside world.
+
+# NAT Gateway vs NAT instance 
+
+- NAT Gateways are highly available as long as the AZ stays up, if it goes down so does the NAT Gateway
+- NAT Instances do not have the same level of HA, you would need to use a script to manage failover between instances.
+- NAT Gateway is fully managed by AWS - meaning no software patches or OS that needs configuring, on the other hand the instances all the maintenance is on you as the admin
+- In NAT Gateway the SG's are all managed by AWS whereas in NAT instances you can use security groups/bastion hosts to SSH in to your instances.
+
+# NACL - Network Access Control List 
+
+- NACL are essentially virtual firewalls at the subnet level that control what traffic can go in and out.
+- Every Subnet created gets assigned a default NACL.
+- Each Subnet can only have one NACL.
+- NACL's are stateless meaning they don't automatically allow return traffic. You have to define inbound and outbound rules explicitly.
+- Rules have a number ranging from 1 - 32766 with the lowest number having the most precedence.
+- NACL's are great way for blocking a specific IP address at the subnet level.
+  
