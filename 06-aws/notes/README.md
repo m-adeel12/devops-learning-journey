@@ -348,3 +348,39 @@ Naming convention:
 - Once it generates a smaller thumbnail version of it, it pushes this image back to the S3 bucket which could be a different bucket.
 - You can also push the metadata like your image size or name in to a Dyanamo DB table
 - Everything is fully automated, you upload the image AWS takes care of it
+
+# Amazon Networking
+
+- CIDR - Classless Interdomain Routing is essentially a method for allocating IP addresses. They help us to define IP ranges.
+
+  <img width="637" height="336" alt="image" src="https://github.com/user-attachments/assets/605777f5-50ef-4949-9b51-158c317b1ef7" />
+
+# VPC 
+
+Virtual Private Clouds (VPCs)
+
+- A VPC is a virtual network dedicated to your AWS account. It is logically isolated from other virtual networks in the AWS Cloud. You can specify an IP address range for the VPC, add subnets, gateways, and associate security groups.
+  
+# VPC- Subnet (IPV4)
+
+- Each VPC is divided into multiple subnets which allows you to segment your resources across different AZs.
+- AWS reserves 5 IP addresses in each subnet, these are not available for use and cannot be assigned to EC2 instances. 
+<img width="519" height="236" alt="image" src="https://github.com/user-attachments/assets/ae1089bf-e23d-45a3-a1bb-33cb0b3f1691" />
+
+# Internet Gateway
+
+- Internet Gateway allows resources inside a VPC to be connected to the Internet.
+- It scales horizontally and is highly available and redundant.
+- You have to create an Internet Gateway separately
+- Only one IGW can be attached to your VPC and vice versa.
+- Internet Gateways on their own do not provide Internet access, you have to  edit the subnets of your route tables.
+- A route table in AWS is the set of rules that controls how traffic moves inside your VPC and out of it. It decides where packets go when an EC2 instance sends traffic
+
+# Bastion Hosts 
+
+- Bastion Host is like your bridge to the private instances
+- The Bastion is created in the public subnet, once you connect to it you can access the private subnet where EC2 instances are located.
+- Bastion Host security groups must allow inbound from the internet on port 22 from restricted CIDR of your corporation.
+- The security group of your private EC2 instance must allow inbound SSH from the bastion host either by Private IP or a secret group.
+- This allows you to securely manage your private EC2 instances without directly exposing them to the Internet. It adds an extra layer of protection in environments where security is critical  
+  
