@@ -407,3 +407,31 @@ Virtual Private Clouds (VPCs)
 - Rules have a number ranging from 1 - 32766 with the lowest number having the most precedence.
 - NACL's are great way for blocking a specific IP address at the subnet level.
   
+# VPC Peering 
+
+- VPC Peering is a way to privately connect two  VPC's using AWS's internal  network.
+- A common example is where two teams for example a sales team wants to retract some data from the DevOps team, rather then sharing the data over the internet they can set up a VPC parent connection making the process faster and more secure.
+- You can reference a security group in a peered VPC to securely share resources provided they are in the same region
+- You can create VPC peering connection between VPC's in different accounts and AWS regions.
+<img width="447" height="229" alt="image" src="https://github.com/user-attachments/assets/85f89261-aab6-440a-8598-243ea8cb4a00" />
+
+# VPC Endpoints (AWS Private Link)
+
+- By default all AWS resources are publicly exposed meaning you will need to use a public URL to access the resources over the internet.
+- If you want to securely access AWS resources this is where VPC endpoints come in - VPC endpoints are powered by AWS Private Link , they allow you to connect to AWS services using a private network instead of using the public internet.
+- The setup is redundant and scales horizontally meaning its super reliable and handle increasing load.
+- They remove the need of IGW and NATGW to access AWS services
+- If you run in to issues two things you should check:
+  . Check DNS setting resolution in your VPC
+  . Check Route Tables
+
+# Types of Endpoints 
+
+- Interface Endpoint- Powered by AWS private Link . These endpoints create an ENI which is an Elastic Network Interface which is essentially a private IP address that serves the entry point for two EC2 instances to connect.
+- It supports most AWS services
+- You pay per hour and per GB of data processed
+
+- Gateway Endpoints - create a gateway and must be used as a target in a route table to route traffic to services like DynamoDB and S3
+- They differ from Interface Endpoints as they don't require SG's and also are completely free.
+- They only support DynamoDB and S3
+   
