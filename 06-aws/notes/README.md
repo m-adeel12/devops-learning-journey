@@ -435,3 +435,16 @@ Virtual Private Clouds (VPCs)
 - They differ from Interface Endpoints as they don't require SG's and also are completely free.
 - They only support DynamoDB and S3
    
+# IPV6
+
+- Every IPV6 address in AWS is public and internet routable
+- EC2 instances will have both have a private IPV4 and a public IPV6 address for internal communications.
+- If you cannot launch an EC2 instance in your subnet, this can be due to the fact there is no available IPV4 addresses in your subnets due to it being limited. The solution would be to expand the address range for that IP address and create a new IPV4 CIDR in your subnet.
+
+# Egress-only Internet Gateway 
+
+- These are used for IPV6 only
+- Egress-only Internet Gateway ensures that your instances in a private subnet can initiate connections to the internet but the internet cannot initiate  connections back to your instance.
+- This helps secure resources from unwanted incoming traffic
+- You must update your route tables in order to direct outbound traffic from the private subnet to the internet 
+     
