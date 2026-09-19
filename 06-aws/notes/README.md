@@ -440,11 +440,17 @@ Virtual Private Clouds (VPCs)
 - Every IPV6 address in AWS is public and internet routable
 - EC2 instances will have both have a private IPV4 and a public IPV6 address for internal communications.
 - If you cannot launch an EC2 instance in your subnet, this can be due to the fact there is no available IPV4 addresses in your subnets due to it being limited. The solution would be to expand the address range for that IP address and create a new IPV4 CIDR in your subnet.
+- A VPC that operates in a dual stack mode means both IPV4 and IPV6 are enabled
 
 # Egress-only Internet Gateway 
 
 - These are used for IPV6 only
 - Egress-only Internet Gateway ensures that your instances in a private subnet can initiate connections to the internet but the internet cannot initiate  connections back to your instance.
 - This helps secure resources from unwanted incoming traffic
-- You must update your route tables in order to direct outbound traffic from the private subnet to the internet 
+- You must update your route tables in order to direct outbound traffic from the private subnet to the internet
+
+# IPV6 Routing 
+
+- For both public and private subnets you don't need a NAT gateway to access the internet instead you can use an internet gateway to access the internet  provided that your using a IPV6 address. 
+  
      
