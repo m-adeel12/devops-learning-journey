@@ -454,3 +454,19 @@ Virtual Private Clouds (VPCs)
 - For both public and private subnets you don't need a NAT gateway to access the internet instead you can use an internet gateway to access the internet  provided that your using a IPV6 address. 
   
      
+# Route 53 
+
+- Route 53 is AWS's DNS service.
+- Its highly available, scalable, fully managed and authoritative DNS meaning that you as the customer can update the DNS records.
+- Its also a domain registrar similar to GoDaddy and Cloudflare where you can purchase and manage domain names.
+- It also has the ability to check the health of your resources
+- The most important part is that its the only AWS service that has 100 percent availability.
+
+
+# Route 53 - Hosted Zones
+
+- Think of a host zone like your container. It hosts all the DNS records for a certain domain and it tells route 53 how to route traffic
+- Public Hosted Zones: contains records that specifies how to route traffic on the internet.
+- Private Hosted Zones: contains records that specify how you route traffic within one or more VPC's.
+- You would use a public hosted zone when you want to manage a DNS for a domain that would be accessible over the internet. 
+   
