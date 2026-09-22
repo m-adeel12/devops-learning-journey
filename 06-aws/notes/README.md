@@ -469,4 +469,19 @@ Virtual Private Clouds (VPCs)
 - Public Hosted Zones: contains records that specifies how to route traffic on the internet.
 - Private Hosted Zones: contains records that specify how you route traffic within one or more VPC's.
 - You would use a public hosted zone when you want to manage a DNS for a domain that would be accessible over the internet. 
+
+# DNS 
+
+- DNS stands for domain name systems and what it essentially does is translates human friendly hostnames in to the machine IP addresses.
+- Domain registrar allows you ton register domain names.
+
+# Route 53 - Records 
+
+- Record essentially tells Route 53 how to handle requests coming for it.
+- It contains the following:
+  . Domain/subdomain
+  . Record type
+  . Routing policy- how route 53 responds to queries
+  . TTL- amount of time the record cached at DNS resolvers 
+  
    
