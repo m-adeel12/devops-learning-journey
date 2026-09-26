@@ -519,4 +519,12 @@ Virtual Private Clouds (VPCs)
 # Routing Policy Latency Based 
 
 - Route 53 looks where the user is located and redirects to the resource with the lowest latency close to it.
-- Its great when user experience is priority. For example a user in Germany might get directed to to a server in US provided that it has the lowest latency so its all dependant on speed rather then solely region. 
+- Its great when user experience is priority. For example a user in Germany might get directed to to a server in US provided that it has the lowest latency so its all dependant on speed rather then solely region.
+
+# CloudFront 
+
+- This is AWS's very own content delivery network, its designed to boost performance by caching your content closer to users at edge locations
+- This results in faster load times and better user experience.
+- Its also integrated with AWS shield and AWS Web Application Firewall helping particular resources from DDOs attacks.
+- With CloudFront not only are you speeding up the user performance but your providing security at a global scale. 
+  
