@@ -484,4 +484,39 @@ Virtual Private Clouds (VPCs)
   . Routing policy- how route 53 responds to queries
   . TTL- amount of time the record cached at DNS resolvers 
   
-   
+# TTL 
+
+- TTL record is essentially how long a DNS record is cached before is refreshed.
+- There is two types of TTL.
+- High TTL: Eg 24 hours
+- Benefit of this is that route 53 doesn't get hit by much traffic
+- However since the records are cached for a long time it could mean some of the records may be outdated. Users wont see changes until the TTL expires.
+- Low TTL: eg 60 seconds
+- Changes to your DNS propagate faster
+- However route 53 would get more traffic, and more traffic means extra costs
+- TTL is mandatory for every DNS record except alias as this managed by AWS.
+
+# CNAME Vs Alias 
+
+- CNAME points a hostname to another hostname and are only specific for non-route domain needs. 
+- Alias post a hostname to an AWS record. They work on all domain levels.
+
+# Route 53- Routing Policy 
+
+- It defines how route 53 responds to DNS queries.
+- Its not the same as a load balancer routing which routes the traffic, DNS does not route traffic it responds to queries.
+
+# Routing Policy- Simple 
+
+- In simple routing you route traffic to a single resource
+
+# Routing Policy- Weighted 
+
+- In weighted routing you control the percentage of requests that goes to each resource by assigning weights to your DNS records.
+- It can be associated with health checks, if one server goes down route 53 stops sending traffic automatically.
+- Use cases: In load balancing when testing with regions and testing a new version of application.
+
+# Routing Policy Latency Based 
+
+- Route 53 looks where the user is located and redirects to the resource with the lowest latency close to it.
+- Its great when user experience is priority. For example a user in Germany might get directed to to a server in US provided that it has the lowest latency so its all dependant on speed rather then solely region. 
