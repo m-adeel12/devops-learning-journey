@@ -528,3 +528,15 @@ Virtual Private Clouds (VPCs)
 - Its also integrated with AWS shield and AWS Web Application Firewall helping particular resources from DDOs attacks.
 - With CloudFront not only are you speeding up the user performance but your providing security at a global scale. 
   
+# CloudFront - Origins
+
+- A CloudFront origin refers to the backend source that Amazon CloudFront fetches content from
+
+- S3 Buckets- these are used for distributing files and caching them at the edge
+- You can have enhanced security with Origin access control
+- CloudFront is useful in a way that rather then having to directly access the origin it goes to the edge location first making delivery time faster.
+
+# CloudFront - S3 as an origin 
+
+- We have an S3 bucket acting as an origin which stores your files like images or videos 
+   
