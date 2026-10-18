@@ -1,33 +1,23 @@
-# Notes
+# Terraform Introduction 
 
-Add your notes here as you progress through this module.
+- Terraform is an infrastructure as code tool that can deploy resources to different cloud providers such as AWS, Azure or GCP.
+- This is done through the terraform registry where it will install certain plugins and it will use API calls to deploy to different providers.
+  
+# IAC with Version Control 
 
-## Template
+- Infrastructure as code can be stored in version control systems such as Git which allows you to track your changes, rollback to certain versions and collaborate with teams.
 
-When creating a new note, you can use this structure:
+# Infrastructure Orchestration Vs Config management 
 
-```markdown
-# Topic Name
+- Terraform as an orchestration tool will be used to deploy your severs such as EC2 instances, now how does config management tools integrate in to that. For example ansible can be used to configure your ec2 instances in order to run certain thing such as hosting a WordPress server. 
 
-## Key Concepts
+# What is Terraform ?
 
-- Point 1
-- Point 2
+- HashiCorp Terraform is an infrastructure as code tool that lets you define both cloud and on-prem resources in human-readable configuration files that you can version, reuse, and share.
 
-## Commands
+# Tips for when using Terraform 
 
-`command` - what it does
-
-## Examples
-
-(code examples)
-
-## What I Learned
-
-(your own summary)
-```
-
-## Your Notes
-
-- [ ] Add your first note
-
+- Go through the Terraform Documentation online
+- Its important to thoroughly check your Terraform plan to see if it aligns with what you are trying to deploy as you dont want to be deleting important resources.
+- Start small with a mvp (minimum viable product) then iterate
+- Implement dry software engineering principles. Dry means do not repeat yourself 
