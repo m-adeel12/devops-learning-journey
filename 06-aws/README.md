@@ -1,68 +1,53 @@
-# 06 - AWS
+# AWS Custom VPC Lab — Public & Private Subnets, NAT Gateway, EC2 Instances
 
-Amazon Web Services is the most widely used cloud platform. This module covers the essentials.
+This project demonstrates how to build a custom VPC with a public subnet, private subnet, proper internet routing, and EC2 instances deployed across them.
+It’s designed as a hands‑on networking lab to show real AWS fundamentals — not just clicking around.
 
-## What You'll Learn
+# Architecture Overview
 
-- AWS account setup and IAM
-- EC2 (virtual machines)
-- S3 (object storage)
-- VPC (networking)
-- RDS (managed databases)
-- ECS/EKS (container services)
-- CloudWatch (monitoring)
-- IAM best practices
+This lab builds the following environment:
 
-## Folder Structure
+VPC: 10.0.0.0/16
 
-```
-06-aws/
-├── notes/       # Your notes from lessons
-├── labs/        # Completed lab exercises
-└── projects/    # Hands-on projects
-```
+Public Subnet: 10.0.1.0/24
 
-## Suggested Projects
+Private Subnet: 10.0.2.0/24
 
-- [ ] Deploy an EC2 instance with proper security groups
-- [ ] Host a static website on S3
-- [ ] Set up a VPC with public/private subnets
-- [ ] Deploy an application on ECS Fargate
+Internet Gateway for public subnet outbound access
 
-## Key Services
+NAT Gateway for private subnet outbound access
 
-| Service | Purpose |
-|---------|---------|
-| EC2 | Virtual machines |
-| S3 | Object storage |
-| VPC | Virtual network |
-| RDS | Managed databases |
-| ECS | Container orchestration |
-| EKS | Managed Kubernetes |
-| Lambda | Serverless functions |
-| CloudWatch | Monitoring and logs |
-| IAM | Identity and access |
+Route tables configured for correct routing
 
-## Useful CLI Commands
+EC2 Instances:
 
-```bash
-aws sts get-caller-identity     # Check who you're logged in as
-aws ec2 describe-instances      # List EC2 instances
-aws s3 ls                       # List S3 buckets
-aws s3 cp file s3://bucket/     # Upload to S3
-aws logs tail /aws/log-group    # Tail CloudWatch logs
-```
+Public EC2 (with public IP)
 
-## Cost Warning
+Private EC2 (no public IP)
 
-AWS charges for resources. Always:
-- Use free tier eligible resources when learning
-- Set up billing alerts
-- Destroy resources when done
-- Check the pricing calculator before creating resources
+Security Groups enforcing least‑privilege access
 
-## Resources
+# 1. Creating the VPC
 
-- [AWS Documentation](https://docs.aws.amazon.com/)
-- [AWS Free Tier](https://aws.amazon.com/free/)
-- [AWS Pricing Calculator](https://calculator.aws/)
+I started by creating a custom VPC with the CIDR block 10.0.0.0/16.
+
+<img width="776" height="419" alt="image" src="https://github.com/user-attachments/assets/bdefb289-b528-41f2-ac2a-8ea964f4aa7b" />
+
+# 2. Creating the Subnets
+
+I created two subnets:
+
+Public Subnet: 10.0.1.0/24
+
+Private Subnet: 10.0.2.0/24
+
+I also enabled Auto‑assign public IPv4 on the public subnet so instances launched there automatically get a public IP.
+
+<img width="764" height="149" alt="image" src="https://github.com/user-attachments/assets/74b7fe7f-99ee-4973-bf90-dd35fa84e7fc" />
+
+<img width="746" height="403" alt="image" src="https://github.com/user-attachments/assets/52e62fdc-a128-4cc7-89f9-f7897e08b7e8" />
+
+
+
+<img width="735" height="396" alt="image" src="https://github.com/user-attachments/assets/f2c70ea4-74ce-4313-847f-f847510fb5f6" />
+
