@@ -21,3 +21,30 @@
 - Its important to thoroughly check your Terraform plan to see if it aligns with what you are trying to deploy as you dont want to be deleting important resources.
 - Start small with a mvp (minimum viable product) then iterate
 - Implement dry software engineering principles. Dry means do not repeat yourself 
+
+# Terraform State File 
+
+- Terraform State file is the blueprint - what that means is its essentially a record of your existing infrastructure. Its very important and it helps maintain item potency.
+- In terms of Terraform item potency refers to your terraform configuration - no matter how many times it runs it will produce the same results.
+
+# Desired State Vs Current State 
+
+- Current state refers to the up to date record of your terraform infrastructure.
+- Desired state refers to your terraform configuration of changes your trying to implement or things your trying to deploy.
+- What terraform state file does is it compares this to your actual infrastructure
+- So in simple words desired state is what your trying to achieve and current state is what actually exists.
+
+# Terraform Provider 
+
+- Terraform provider is essentially a plugin that allows you to interact with cloud platforms, services or technologies. The plugin is essentially what allows terraform to manage your resources in the cloud
+
+# Terraform init
+
+- Terraform init command initialises the backend of your infrastructure - it essentially sets up your environment 
+- The backend is where terraform state stores the state of your infrastructure.
+
+# Terraform Plan
+
+- 
+  
+  
