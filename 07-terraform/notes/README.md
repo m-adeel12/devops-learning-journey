@@ -45,6 +45,19 @@
 
 # Terraform Plan
 
-- 
-  
+- The terraform plan command allows you to preview the changes terraform will make to your infrastructure without actually applying them, allowing you to preview and verify modifications safely.
+
+- + symbol means a resource is created
+- dash symbol means the resource is updated
+-  - symbol means the resource is deleted
+
+# Terraform apply
+
+- This means any resource that Terraform plans to create, update or destroy will actually be implemented when you run the Terraform apply command.
+- Its where your desired infrastructure actually becomes reality.
+
+# Terraform destroy
+
+- Terraform destroy command is a convenient way to destroy all remote objects managed by a particular terraform configuration.
+     
   
