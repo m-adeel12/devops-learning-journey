@@ -59,5 +59,8 @@
 # Terraform destroy
 
 - Terraform destroy command is a convenient way to destroy all remote objects managed by a particular terraform configuration.
-     
+
+# Resource Block 
+
+- In terraform a resource block is used to define a piece of infrastructure you want to manage. 
   
