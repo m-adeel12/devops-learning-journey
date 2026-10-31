@@ -64,3 +64,15 @@
 
 - In terraform a resource block is used to define a piece of infrastructure you want to manage. 
   
+# Terraform Import
+
+- Terraform Import allows us to bring our existing resources from the cloud in to terraforms management
+- Terraform Import command is essentially used when you want to integrate terraform into an existing infrastructure setup.
+
+
+# Local Vs Remote State Files 
+
+- By default Terraform stores your state file locally in to your machine hence why its called local state files. Its very useful if your working along or building a small project.
+- Local state files are best suited for environments where only one person is managing your infrastructure. You don't have to worry about other peoples input where it can affect your state file.
+- By storing state files remotely multiple teams members can access and update the same infrastructure state without risking conflicts or inconsistencies.
+- We also have consider automatic locking known as state locking , which prevents users from making changes at the same time which reduces the risk of state corruption. Remote backends like AWS can automatically backup your state file and apply encryption ensuring that your infrastructure state is both secure and recoverable.
