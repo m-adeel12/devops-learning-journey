@@ -76,3 +76,15 @@
 - Local state files are best suited for environments where only one person is managing your infrastructure. You don't have to worry about other peoples input where it can affect your state file.
 - By storing state files remotely multiple teams members can access and update the same infrastructure state without risking conflicts or inconsistencies.
 - We also have consider automatic locking known as state locking , which prevents users from making changes at the same time which reduces the risk of state corruption. Remote backends like AWS can automatically backup your state file and apply encryption ensuring that your infrastructure state is both secure and recoverable.
+
+# Terraform Workflows 
+
+-  Terraform init: This command is used to initialise a working directory containing terraform config files. It also downloads the providers and configures the backend for your terraform state file
+-  Terraform validate: This command validates the terraform configuration files in that responsive directory to ensure they are syntactically valid and internally consistent.
+- Terraform plan: This command creates an execution plan. Terraform performs a refresh and determines what actions are necessary to achieve the desired state specified in configuration files.
+- Terraform apply: This command is used to apply changes needed the reach the desired state of the configuration.
+- Terraform destroy: This command is used to destroy the terraform managed infrastructure.
+
+# Variables 
+
+- Variables allow you to write more clean and dynamic code making it easier to manage different environments and setups. 
