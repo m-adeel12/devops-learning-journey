@@ -87,4 +87,6 @@
 
 # Variables 
 
-- Variables allow you to write more clean and dynamic code making it easier to manage different environments and setups. 
+- Variables allow you to write more clean and dynamic code making it easier to manage different environments and setups.
+- Variables in Terraform are a way to parametrise your configuration making them more dynamic and reusable - instead of hard coding values, like instance types, amis or region name directly into your configuration files, you can define this values as variables
+- To use variables in Terraform you will first need to define them 
