@@ -90,3 +90,27 @@
 - Variables allow you to write more clean and dynamic code making it easier to manage different environments and setups.
 - Variables in Terraform are a way to parametrise your configuration making them more dynamic and reusable - instead of hard coding values, like instance types, amis or region name directly into your configuration files, you can define this values as variables
 - To use variables in Terraform you will first need to define them 
+
+# Input Variables
+
+- You define input variables to receive values from a user  the command line or variable files.
+
+# Local Variables 
+
+-  Local variables allow you to simplify your terraform configuration by centralising values that you use repeatedly which makes your code easier to manage and understand.
+
+# Output Variables 
+
+- Output variables in Terraform are used to display values after you run terraform apply.
+- They should be used for displaying values that are critical for automation or manual intervention.
+
+# Types of Variables 
+
+- Primitive Variables are the simplest individual values whereas complex variables are combination of values
+
+
+  <img width="522" height="285" alt="image" src="https://github.com/user-attachments/assets/4f4a9240-9c08-4073-885e-2bff8bd54d6a" />
+
+    
+   
+  
