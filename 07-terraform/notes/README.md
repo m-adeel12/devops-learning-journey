@@ -112,5 +112,15 @@
   <img width="522" height="285" alt="image" src="https://github.com/user-attachments/assets/4f4a9240-9c08-4073-885e-2bff8bd54d6a" />
 
     
-   
-  
+# Terraform Modules 
+
+- Terraform Module is essentially a collection of configuration files that are grouped together in order to serve a specific purpose.
+- By default any terraform configuration in a folder is treated as if it's its own module.
+- We use modules for the following reasons:
+  1. Reusability
+  2. Organisation
+  3. Consistency
+  4. Collaboration
+ 
+- In terraform, modules allow you to build reusable infrastructure components that you can use across different environments, projects and across team collaboration. 
+     
