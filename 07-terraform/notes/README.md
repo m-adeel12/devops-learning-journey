@@ -123,4 +123,10 @@
   4. Collaboration
  
 - In terraform, modules allow you to build reusable infrastructure components that you can use across different environments, projects and across team collaboration. 
-     
+
+# What makes a good Module ?
+
+- Simplicity
+- Documentation
+- Reusability
+- Output Values 
